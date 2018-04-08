@@ -6,9 +6,9 @@ if($(this).data('login')!=null){
 $("#contenedor").load('paginas/formu.html');
 
 
-} else {
+} else { alert($(this).data('cliente'));
 	if($(this).data('cliente')!=null){
-    alert($(this).data('cliente'));
+   
 $("#contenedor").load('paginas/cliente.html');
 
 
