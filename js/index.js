@@ -6,6 +6,13 @@ if($(this).data('login')!=null){
 $("#contenedor").load('paginas/formu.html');
 
 
+} else {
+	if($(this).data('cliente')!=null){
+    alert($(this).data('cliente'));
+$("#contenedor").load('paginas/cliente.html');
+
+
 } 
+}
   
 });
