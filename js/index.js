@@ -3,7 +3,8 @@ $(".l").click(function(event){
 
 if($(this).data('login')!=null){
     alert($(this).data('login'));
-$("#contenedor").load('../paginas/'+ $(this).data('formu')+'.html');
+$("#contenedor").load('../paginas/formu.html');
+alert("p");
 
 } 
   
