@@ -4,7 +4,7 @@
 .login{
 	float: right;
 }
-#informacion{
+#contenedor{
 	margin-top: 2em;
 }
 .seguir{
@@ -28,4 +28,15 @@ footer{
 }
 .formu{
 	margin-top: 2em;
+}
+#jum{
+	height: 300px;
+}
+.face{
+	float: left;
+}
+.botonface{
+	background-color: rgba(59, 89, 152, 1.0);
+	width: 40px;
+	float: left;
 }
