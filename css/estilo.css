@@ -1,6 +1,31 @@
+.tituloforumario{
+	margin-top: 300px;
+}
 .login{
 	float: right;
 }
 #informacion{
+	margin-top: 2em;
+}
+.seguir{
+	float: left;
+}
+.contacto{
+	float: right;
+}
+footer{
+	padding-top:2em; 
+	
+}
+.f1{
+	float: left;
+}
+.f2{
+	float: right;
+}
+#titulo{
+	margin:3em;
+}
+.formu{
 	margin-top: 2em;
 }
