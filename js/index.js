@@ -1,4 +1,5 @@
 
+alert("a");
 $(".l").click(function(event){
 
 if($(this).data('login')!=null){
