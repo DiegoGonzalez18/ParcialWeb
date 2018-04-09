@@ -1,9 +1,9 @@
 
-alert("a");
+
 $(".l").click(function(event){
 
 if($(this).data('login')!=null){
-    alert($(this).data('login'));
+   
 $("#contenedor").load('paginas/formu.html');
 
 
@@ -17,6 +17,13 @@ $("#contenedor").load('paginas/cliente.html');
 else  if($(this).data('empleado')!=null){
    
 $("#contenedor").load('paginas/empleado.html');
+
+
+
+}
+else  if($(this).data('envio')!=null){
+   
+$("#contenedor").load('paginas/envio.html');
 
 
 
