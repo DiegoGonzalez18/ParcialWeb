@@ -41,3 +41,6 @@ footer{
 	width: 40px;
 	float: left;
 }
+body{
+	background-color: rgba(60,189,167,0.2);
+}
